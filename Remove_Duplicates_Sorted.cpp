@@ -17,7 +17,7 @@ int removeDuplicates(vector<int> &arr) {
 } 
 
 int main() {
-    vector<int> arr = {4, 3, 2, 2, 1, 5, 4, 3, 2, 5};
+    vector<int> arr = {2, 2, 2, 3, 3, 4, 4, 5};
     int size = removeDuplicates(arr);
 
     cout<<"The size of the truncated array is: "<<size<<endl;
