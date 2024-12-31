@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <vector>
+using namespace std;
 
 int maximumSubarraySum(vector<int>& arr) {
     int currSum = 0, maxSum = INT_MIN;
