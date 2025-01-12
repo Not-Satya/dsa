@@ -29,7 +29,7 @@ void arrayLeaders(vector<int>& arr) {
 
 int main() {
     vector<int> arr = {16, 17, 4, 3, 5, 2};
-    arrayLeader(arr);
+    arrayLeaders(arr);
 
     if (arr.empty()) {
         cout<<"This array is ascending sorted and hence has no leaders."<<endl;
